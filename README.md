@@ -14,7 +14,7 @@ This is a simple chat web application built using React and Firebase. It allows 
 - React - JavaScript library for building user interfaces.
 - Firebase - Backend-as-a-Service platform for building web applications.
 - Firestore - Database provided by Firebase.
-- 
+  
 ## Demo
 
 ![luc3](https://github.com/anand2025/letuschat/assets/105790879/3d33948a-30f1-4507-a0e2-2fc1a15a03f4)![luc2](https://github.com/anand2025/letuschat/assets/105790879/26a315c3-89c6-4c71-8be8-7fd8651184b4)
