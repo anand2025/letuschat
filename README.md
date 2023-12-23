@@ -1,5 +1,5 @@
 # LetUsChat
-This is a simple chat web application built using React and Firebase. It allows users to authenticate using email address and exchange real-time messages in a chat.
+LetUsChat is a simple chat web application built using React and Firebase. It allows users to authenticate using email address and exchange real-time messages in a chat.
 
 ## Features
 
