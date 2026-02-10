@@ -1,19 +1,22 @@
 # LetUsChat
-LetUsChat is a simple chat web application built using React and Firebase. It allows users to authenticate using email address and exchange real-time messages in a chat.
+LetUsChat is a real-time messaging web application. Originally powered by Firebase, it has been migrated to a custom-built backend using **FastAPI** and **PostgreSQL**, with **WebSockets** for real-time communication.
 
 ## Features
 
-- User authentication using Email Sign-In.
-- Register and login using Email and password.
-- Real-time messaging in a chat.
-- Messages are stored in a Firestore database.
-- Allows to search for users and chat with them.
-  
+- **JWT Authentication**: Secure registration and login using custom-built authentication.
+- **Real-time Messaging**: Instant message exchange powered by WebSockets.
+- **Persistent Storage**: Messages and user data stored in a PostgreSQL database.
+- **User Search**: Find and chat with other users through a dedicated search interface.
+- **Local Avatar Support**: Profile pictures are managed and served locally.
+
 ## Technologies Used
 
-- React - JavaScript library for building user interfaces.
-- Firebase - Backend-as-a-Service platform for building web applications.
-- Firestore - Database provided by Firebase.
+- **Frontend**: React.js, SCSS, Context API.
+- **Backend**: FastAPI (Python).
+- **Database**: PostgreSQL (SQLModel ORM).
+- **Communication**: WebSockets for real-time updates.
+- **Containerization**: Docker & Docker Compose.
+
   
 ## Demo
 
