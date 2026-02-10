@@ -10,8 +10,8 @@ const Chat = () => {
   return (
     <div className="chat">
       <div className="chatInfo">
-       <img src={data.user?.photoURL} alt="" /> 
-        <span>{data.user?.displayName}</span>
+       <img src={data.user?.photo_url ? `http://localhost:8000${data.user.photo_url}` : ""} alt="" /> 
+        <span>{data.user?.display_name}</span>
         <span>(online)</span>
       </div>
       <Messages />
